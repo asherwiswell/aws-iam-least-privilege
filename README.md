@@ -37,12 +37,7 @@ The IAM user is granted only the minimum permissions required to access a specif
 4. Attached the policy to the IAM user.
 5. Logged in as the IAM user to verify permissions.
 
-
 ---
-
-# Testing Access Controls
-
-This section is **very good for portfolios**.
 
 ## Testing Access Controls
 
@@ -60,14 +55,18 @@ Denied actions:
 ## Screenshots
 
 ### IAM User Created
-![IAM User](screenshots/iam-user.png)
+![IAM User](create-user.png)
 
 ### Custom Policy
-![IAM Policy](screenshots/iam-policy.png)
+![IAM Policy](create-policy.png)
 
-### Access Denied Example
-![Access Denied](screenshots/access-denied.png)
+### Set Permissions
+![Set Permissions](set-permissions.png)
 
+### Access Denied Example 1
+![Access Denied](not-auth-1.png)
 
+### Access Denied Example 2
+![Access Denied](not-auth-2.png)
 
 
